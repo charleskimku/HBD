@@ -43,7 +43,7 @@ export default function App() {
 
   // Initialize HTML5 Audio element on load
   useEffect(() => {
-    const audio = new Audio('./jamrud_selamat_ulang_tahun.m4a');
+    const audio = new Audio('/jamrud_selamat_ulang_tahun.m4a');
     audio.loop = true;
     audio.volume = volume;
     audioRef.current = audio;
